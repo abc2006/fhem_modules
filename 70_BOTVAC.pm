@@ -1426,13 +1426,24 @@ sub BOTVAC_GetMap() {
 <h3>BOTVAC</h3>
 <ul>
   This module controls Neato Botvac Connected and Vorwerk Robot Vacuums.
-  <br><br>
-<a name="BOTVACDefine></a>
+  For issuing commands or retrieving Readings it's necessary to fetch the information from the NEATO/VORWERK Server.
+ In this way, it can happen, that it's not possible to send commands to the Robot until the corresponding Values are fetched. 
+ This means, it can need some time until your Robot will react on your command.
+	<br><br>
+  <a name="BOTVACDefine"></a>
   <b>Define</b>
 	<ul>
 	<code>define &lt;name&gt; BOTVAC &lt;email&gt; [NEATO|VORWERK] [&lt;polling-interval&gt;]</code>
 	<br><br>
+	Example: 
+	<code>define myNeato BOTVAC myemail@myprovider.com NEATO 300</code>
+	<br><br>
 	After defining the Device, it's necessary to enter the password with "set &lt;name&gt; password &lt;password&gt;
+	It is exactly the same Password as you use on the Website or inside the App.
+	<br><br>
+	Example: 
+	<code>set NEATO passwort mySecretPassword</code>
+	<br><br>
 	</ul>
 	 <br>
 
@@ -1450,11 +1461,11 @@ sub BOTVAC_GetMap() {
 </ul><br>
 
   <a name="BOTVACset"></a>
-  <b>Get</b>
+  <b>Set</b>
 <ul>
 	<a name="findMe"></a>
 	<li>
-	findMe
+	<code> set <name> findMe</code>
 	<br>
       plays a sound and let the LED light for easier finding of a stuck robot
 	</li>
@@ -1462,7 +1473,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="dismissCurrentAlert"></a>
 	<li>
-	dismissCurrentAlert
+	<code> set <name> dismissCurrentAlert</code>
 	<br>
       	reset an actual Warning (e.g. dustbin full)
 	</li>
@@ -1470,7 +1481,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="manualCleaningMode"></a>
 	<li>
-	manualCleaningMode
+	<code> set <name> manualCleaningMode</code>
 	<br>
       
 	</li>
@@ -1479,7 +1490,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="nextCleaningMode"></a>
 	<li>
-	nextCleaningMode
+	<code> set <name> nextCleaningMode</code>
 	<br>
       
 	</li>
@@ -1488,7 +1499,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="nextCleaningNavigationMode"></a>
 	<li>
-	nextCleaningNavigationMode
+	<code> set <name> nextCleaningNavigationMode</code>
 	<br>
       
 	</li>
@@ -1497,7 +1508,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="nextCleaningSpotHeight"></a>
 	<li>
-	nextCleaningSpotHeight
+	<code> set <name> nextCleaningSpotHeight</code>
 	<br>
       
 	</li>
@@ -1506,7 +1517,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="nextCleaningSpotWidth"></a>
 	<li>
-	nextCleaningSpotWidth
+	<code> set <name> nextCleaningSpotWidth</code>
 	<br>
       
 	</li>
@@ -1514,7 +1525,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="password"></a>
 	<li>
-	password
+	<code> set <name> password <password></code>
 	<br>
       	set the password for the NEATO/VORWERK account
 	</li>
@@ -1522,7 +1533,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="pause"></a>
 	<li>
-	pause
+	<code> set <name> pause</code>
 	<br>
       	breaks the cleaning
 	</li>
@@ -1538,7 +1549,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="reloadMaps"></a>
 	<li>
-	reloadMaps
+	<code> set <name> reloadMaps</code>
 	<br>
       	load last map from server into the cache of the module. no file is stored!
 	</li>
@@ -1554,7 +1565,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="schedule"></a>
 	<li>
-	schedule
+	<code> set <name> schedule</code>
 	<br>
       	on and off, switch time control
 	</li>
@@ -1562,7 +1573,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="sendToBase"></a>
 	<li>
-	sendToBase
+	<code> set <name> sendToBase</code>
 	<br>
       send roboter back to base
 	</li>
@@ -1570,7 +1581,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="setBoundaries"></a>
 	<li>
-	setBoundaries
+	<code> set <name> setBoundaries</code>
 	<br>
       set boundaries/nogo lines
 	</li>
@@ -1578,7 +1589,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="setRobot"></a>
 	<li>
-	setRobot
+	<code> set <name> setRobot</code>
 	<br>
       choose robot if more than one is registered at the used account
 	</li>
@@ -1586,7 +1597,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="startCleaning"></a>
 	<li>
-	startCleaning
+	<code> set <name> startCleaning</code>
 	<br>
       start the Cleaning from the scratch. Depending on Model, there are additional Arguments available: eco/turbo ; normal/extraCare
 	</li>
@@ -1595,7 +1606,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="startSpot"></a>
 	<li>
-	startSpot
+	<code> set <name> startSpot</code>
 	<br>
             start spot-Cleaning from actual position. Depending on Model, there are additional Arguments available: eco/turbo ; normal/extraCare
 	</li>
@@ -1604,7 +1615,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="statusRequest"></a>
 	<li>
-	statusRequest
+	<code> set <name> statusRequest</code>
 	<br>
       pull update of all readings. necessary because NEATO/VORWERK does not send updates at their own.
 	</li>
@@ -1615,14 +1626,14 @@ sub BOTVAC_GetMap() {
 	<li>
 	stop
 	<br>
-      stop cleaning
+      <code> set <name> stop cleaning</code>
 	</li>
 	<br>
 
 
 	<a name="syncRobots"></a>
 	<li>
-	syncRobots
+	<code> set <name> syncRobots</code>
 	<br>
       sync robot data with online account. Useful if one has more then one robot registered
 	</li>
@@ -1631,7 +1642,7 @@ sub BOTVAC_GetMap() {
 
 	<a name="stopCleaning"></a>
 	<li>
-	stopCleaning
+	<code> set <name> stopCleaning</code>
 	<br>
       stopCleaning and stay where you are
 	</li>
@@ -1688,11 +1699,6 @@ sub BOTVAC_GetMap() {
 </ul>
 
 
-
-
-
-
-</ul>
 
 =end html
 =begin html_DE
