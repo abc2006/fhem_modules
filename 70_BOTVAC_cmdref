@@ -1,17 +1,13 @@
 =pod
 =item device
 =item summary 		Robot Vacuums
-
 =item summary_DE	Staubsauger Roboter
 
 =begin html
 
-
-
 <a name="BOTVAC"></a>
-
 <h3>BOTVAC</h3>
-
+<div>
 <ul>
 
   This module controls Neato Botvac Connected and Vorwerk Robot Vacuums.
