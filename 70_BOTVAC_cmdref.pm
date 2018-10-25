@@ -32,31 +32,16 @@
 </ul>
 
 <a name="BOTVACget"></a>
-  <b>Get</b>
-
-  <ul>
-
-	<a name="batteryPercent"></a>
-
-	<li>
-
-	batteryPercent
-
+<b>Get</b>
+<ul>
+<br>
+	<li><code>get &lt;name&gt; batteryPercent</code>
 	<br>
+	requests the state of the battery hopefully directly from Robot
+	</li><br>
+</ul>
 
-      	requests the state of the battery hopefully directly from Robot
-
-	</li>
-
-	<br>
-
-
-
-</ul><br>
-
-
-
-  <a name="BOTVACset"></a>
+<a name="BOTVACset"></a>
 
   <b>Set</b>
 
