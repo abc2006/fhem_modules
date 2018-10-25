@@ -15,42 +15,23 @@
 	This means, it can need some time until your Robot will react on your command.
 	<br/><br/>
 
-  <a name="BOTVACDefine"></a>
-
-  <b>Define</b>
-
-	<ul>
-
+<a name="BOTVACDefine"></a>
+<b>Define</b>
+<ul>
+	<br>
 	<code>define &lt;name&gt; BOTVAC &lt;email&gt; [NEATO|VORWERK] [&lt;polling-interval&gt;]</code>
-
-	<br><br>
-
-	Example: 
-
-	<code>define myNeato BOTVAC myemail@myprovider.com NEATO 300</code>
-
-	<br><br>
+	<br/><br/>
+	Example:<code>define myNeato BOTVAC myemail@myprovider.com NEATO 300</code>
+	<br/><br/>
 
 	After defining the Device, it's necessary to enter the password with "set &lt;name&gt; password &lt;password&gt;
-
 	It is exactly the same Password as you use on the Website or inside the App.
+	<br/><br/>
+	Example:<code>set NEATO passwort mySecretPassword</code>
+	<br/><br/>
+</ul>
 
-	<br><br>
-
-	Example: 
-
-	<code>set NEATO passwort mySecretPassword</code>
-
-	<br><br>
-
-	</ul>
-
-	 <br>
-
-
-
-  <a name="BOTVACget"></a>
-
+<a name="BOTVACget"></a>
   <b>Get</b>
 
   <ul>
