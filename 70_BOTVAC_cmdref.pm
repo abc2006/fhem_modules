@@ -9,16 +9,11 @@
 <h3>BOTVAC</h3>
 <div>
 <ul>
-
-  This module controls Neato Botvac Connected and Vorwerk Robot Vacuums.
-
-  For issuing commands or retrieving Readings it's necessary to fetch the information from the NEATO/VORWERK Server.
-
- In this way, it can happen, that it's not possible to send commands to the Robot until the corresponding Values are fetched. 
-
- This means, it can need some time until your Robot will react on your command.
-
-	<br><br>
+	This module controls Neato Botvac Connected and Vorwerk Robot Vacuums.
+	For issuing commands or retrieving Readings it's necessary to fetch the information from the NEATO/VORWERK Server.
+	In this way, it can happen, that it's not possible to send commands to the Robot until the corresponding Values are fetched. 
+	This means, it can need some time until your Robot will react on your command.
+	<br/><br/>
 
   <a name="BOTVACDefine"></a>
 
