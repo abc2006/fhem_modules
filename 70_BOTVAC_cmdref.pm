@@ -69,76 +69,30 @@
 	MISSING
 	</li>
 <br>
-
-
-
-
-
-	<a name="nextCleaningNavigationMode"></a>
-
 	<li>
-
 	<code> set <name> nextCleaningNavigationMode</code>
-
 	<br>
-
-      
-
+	MISSING
 	</li>
-
-	<br>
-
-
-
-
-
-	<a name="nextCleaningSpotHeight"></a>
-
+<br>
 	<li>
-
 	<code> set <name> nextCleaningSpotHeight</code>
-
 	<br>
-
-      
-
+	MISSING
 	</li>
-
-	<br>
-
-
-
-
-
-	<a name="nextCleaningSpotWidth"></a>
-
+<br>
 	<li>
-
 	<code> set <name> nextCleaningSpotWidth</code>
-
 	<br>
-
-      
-
+	MISSING
 	</li>
-
-	<br>
-
-
-
-	<a name="password"></a>
-
+<br>
 	<li>
-
 	<code> set <name> password <password></code>
-
 	<br>
-
       	set the password for the NEATO/VORWERK account
-
 	</li>
-
-	<br>
+<br>
 
 
 
