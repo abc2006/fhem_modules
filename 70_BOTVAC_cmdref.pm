@@ -177,79 +177,38 @@
 	stopCleaning and stay where you are
 	</li>
 <br>
-</ul><br>
+</ul>
+<a name="BOTVACattr"></a>
+<b>Attributes</b>
+<ul>
+<br>
 
-
-
-  <a name="BOTVACattr"></a>
-
-  <b>Attributes</b>
-
-  <ul>
-
-
-
-    <li><a href="#disable">disable</a><br>
-
-        <a href="#disabledForIntervals">disabledForIntervals</a><br>
-
-      disable distribution of messages. The server itself will accept and store
-
-      messages, but not forward them.
-
-      </li><br>
-
-	
-
-    <li><a href="#disable">actionInterval</a><br>
-
-        <a href="#disabledForIntervals">disabledForIntervals</a><br>
-
-      disable distribution of messages. The server itself will accept and store
-
-      messages, but not forward them.
-
-      </li><br>
-
-
-
-   <a name="actionInterval"></a>
-
-    <li>actionInterval<br>
-
-      time in seconds between status requests while Device is working
-
-      </li><br>
-
-
-
-	<a name="boundaries"></a>
 
 	<li>
-
+	<code> myFirstAttr</code>
+	<br>
+	Explanation
+	</li>
+<br>
+	<li>
+	<code>actionInterval</code>
+	<br>
+	time in seconds between status requests while Device is working
+	</li>
+<br>
+	<li>
 	boundaries
-
 	<br>
-
-      
-
+	boundaries
 	</li>
-
-	<br>
-
-	<a name="oldreadings"></a>
-
+<br>
 	<li>
-
 	oldreadings
-
 	<br>
+	oldreadings
+      	</li>
+<br>
 
-      
-
-	</li>
-
-	<br>
 
   </ul>
 
