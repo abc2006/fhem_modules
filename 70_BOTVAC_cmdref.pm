@@ -93,102 +93,42 @@
       	set the password for the NEATO/VORWERK account
 	</li>
 <br>
-
-
-
-	<a name="pause"></a>
-
 	<li>
-
 	<code> set <name> pause</code>
-
 	<br>
-
       	breaks the cleaning
-
 	</li>
-
-	<br>
-
-
-
-	<a name="pauseToBase"></a>
-
+<br>
 	<li>
-
+	<code> set <name> pauseToBase</code>
+	<br>
 	stops cleaning and returns to base
-
-	<br>
-
-      
-
 	</li>
-
-	<br>
-
-
-
-	<a name="reloadMaps"></a>
-
+<br>
 	<li>
-
 	<code> set <name> reloadMaps</code>
-
 	<br>
-
       	load last map from server into the cache of the module. no file is stored!
-
 	</li>
-
-	<br>
-
-
-
-	<a name="resume"></a>
-
+<br>
 	<li>
-
+	<code> set <name> resume</code>
+	<br>
 	resume cleaning after pause
-
-	<br>
-
-      
-
 	</li>
-
-	<br>
-
-
-
-	<a name="schedule"></a>
-
+<br>
 	<li>
-
 	<code> set <name> schedule</code>
-
 	<br>
-
       	on and off, switch time control
-
 	</li>
-
-	<br>
-
-
-
-	<a name="sendToBase"></a>
-
+<br>
 	<li>
-
 	<code> set <name> sendToBase</code>
-
 	<br>
-
-      send roboter back to base
-
+	send roboter back to base
 	</li>
-
-	<br>
+<br>
 
 
 
