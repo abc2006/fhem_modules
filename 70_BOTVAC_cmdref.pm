@@ -129,167 +129,54 @@
 	send roboter back to base
 	</li>
 <br>
-
-
-
-	<a name="setBoundaries"></a>
-
 	<li>
-
 	<code> set <name> setBoundaries</code>
-
 	<br>
-
-      set boundaries/nogo lines
-
+	set boundaries/nogo lines
 	</li>
-
-	<br>
-
-
-
-	<a name="setRobot"></a>
-
+<br>
 	<li>
-
 	<code> set <name> setRobot</code>
-
 	<br>
-
-      choose robot if more than one is registered at the used account
-
+	choose robot if more than one is registered at the used account
 	</li>
-
-	<br>
-
-
-
-	<a name="startCleaning"></a>
-
+<br>
 	<li>
-
 	<code> set <name> startCleaning</code>
-
 	<br>
-
-      start the Cleaning from the scratch. Depending on Model, there are additional Arguments available: eco/turbo ; normal/extraCare
-
+	start the Cleaning from the scratch. Depending on Model, there are additional Arguments available: eco/turbo ; normal/extraCare
 	</li>
-
-	<br>
-
-
-
-
-
-	<a name="startSpot"></a>
-
+<br>
 	<li>
-
 	<code> set <name> startSpot</code>
-
 	<br>
-
-            start spot-Cleaning from actual position. Depending on Model, there are additional Arguments available: eco/turbo ; normal/extraCare
-
+	start spot-Cleaning from actual position. Depending on Model, there are additional Arguments available: eco/turbo ; normal/extraCare
 	</li>
-
-	<br>
-
-
-
-
-
-	<a name="statusRequest"></a>
-
+<br>
 	<li>
-
 	<code> set <name> statusRequest</code>
-
 	<br>
-
-      pull update of all readings. necessary because NEATO/VORWERK does not send updates at their own.
-
+	pull update of all readings. necessary because NEATO/VORWERK does not send updates at their own.
 	</li>
-
-	<br>
-
-
-
-
-
-	<a name="stop"></a>
-
+<br>
 	<li>
-
-	stop
-
+	<code> set <name> stop cleaning</code>
 	<br>
-
-      <code> set <name> stop cleaning</code>
-
+	stop cleaning
 	</li>
-
-	<br>
-
-
-
-
-
-	<a name="syncRobots"></a>
-
+<br>
 	<li>
-
 	<code> set <name> syncRobots</code>
-
 	<br>
-
-      sync robot data with online account. Useful if one has more then one robot registered
-
+	sync robot data with online account. Useful if one has more then one robot registered
 	</li>
-
-	<br>
-
-
-
-
-
-	<a name="stopCleaning"></a>
-
+<br>
 	<li>
-
 	<code> set <name> stopCleaning</code>
-
 	<br>
-
-      stopCleaning and stay where you are
-
+	stopCleaning and stay where you are
 	</li>
-
-	<br>
-
-
-
-
-
-	<a name=""></a>
-
-	<li>
-
-	
-
-	<br>
-
-      
-
-	</li>
-
-	<br>
-
-
-
-
-
+<br>
 </ul><br>
 
 
