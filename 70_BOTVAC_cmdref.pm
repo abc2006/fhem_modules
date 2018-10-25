@@ -42,74 +42,33 @@
 </ul>
 
 <a name="BOTVACset"></a>
-
-  <b>Set</b>
-
+<b>Set</b>
 <ul>
-
-	<a name="findMe"></a>
-
+<br>
 	<li>
-
 	<code> set <name> findMe</code>
-
 	<br>
-
-      plays a sound and let the LED light for easier finding of a stuck robot
-
+	plays a sound and let the LED light for easier finding of a stuck robot
 	</li>
-
-	<br>
-
-
-
-	<a name="dismissCurrentAlert"></a>
-
+<br>
 	<li>
-
 	<code> set <name> dismissCurrentAlert</code>
-
 	<br>
-
       	reset an actual Warning (e.g. dustbin full)
-
 	</li>
-
-	<br>
-
-
-
-	<a name="manualCleaningMode"></a>
-
+<br>
 	<li>
-
 	<code> set <name> manualCleaningMode</code>
-
 	<br>
-
-      
-
+	MISSING
 	</li>
-
-	<br>
-
-
-
-
-
-	<a name="nextCleaningMode"></a>
-
+<br>
 	<li>
-
 	<code> set <name> nextCleaningMode</code>
-
 	<br>
-
-      
-
+	MISSING
 	</li>
-
-	<br>
+<br>
 
 
 
