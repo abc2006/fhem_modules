@@ -202,30 +202,13 @@
 	boundaries
 	</li>
 <br>
-	<li>
-	oldreadings
-	<br>
-	oldreadings
-      	</li>
-<br>
-
-
-  </ul>
-
 </ul>
 
-
-
-
-
-
+</ul>
 
 =end html
 
 =begin html_DE
-
-
-
 <a name="BOTVAC"></a>
 
 <h3>BOTVAC</h3>
